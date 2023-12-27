@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f80303, #fcbe1591);
+}
+
+header {
+    background: linear-gradient(to bottom,  #f80303,  #db632c );
+    color: #39FF14; /* Cor Neon Verde */
+    text-shadow: 0 0 8px #39FF14;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex-basis: calc(33% - 20px); /* Ajuste para 3 produtos por linha */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto; /* Ajuste para manter a proporção da imagem */
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.05);
+}
+
+.product-info {
+    cursor: pointer;
+}
+
+.product-details {
+    display: none;
+    padding: 10px;
+}
+
+.product:hover .product-details {
+    display: block;
+}
+
+footer {
+    background-color: #f80303;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 20px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.logoofc{
+    height: 200px;
+   }
+
+
